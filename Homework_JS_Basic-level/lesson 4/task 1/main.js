@@ -1,8 +1,8 @@
 function isEmpty(obj) {
-  for (var k in obj) {
+  for (var key in obj) {
     return false;
   }
   return true;
 }
-var friends = { first:'Вован', second:'Андрей' };
+var friends = { first:'Вован', second:'Андрей', third:'Саня' };
 alert(isEmpty(friends));
